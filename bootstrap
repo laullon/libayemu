@@ -3,7 +3,7 @@
 set -x
 set -e
 
-libtoolize
+glibtoolize
 
 # generate 'configure' from 'aclocal.m4' and known AC_ macroses
 aclocal
